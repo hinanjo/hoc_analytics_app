@@ -79,3 +79,16 @@ convention.
 With the prerequisites installed, you can run the app on a simulator or device
 using the commands above. Feel free to modify `App.tsx` and use this project as a
 starting point for your own Hololive trading card ideas.
+
+## API Server
+
+This repository now includes a lightweight Express server in `hololive-api`.
+Start it in development mode with:
+
+```sh
+cd hololive-api
+npm install
+npm run dev
+```
+
+The API exposes tournament data and statistics used by the mobile app.
